@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+.myPage_p_content {
+   width:70%;
+   margin:auto;
+}
+.myPage_p_body{
+   width: 600px;
+   height: 270px;
+   margin: auto;
+   margin-bottom:50px;
+   padding: auto;
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+    background: #FFFFFF;
+    border: 1px solid #E6E9ED;
+}
+
+.myPage_p_title_under {
+   border: 1px solid #E6E9ED;
+}
+
+.myPage_p_name {
+   margin: 15px 0px 28px 20px;
+   font-size : 25px;
+}
+
+.myPage_p_id {
+   margin: 19px 0px 0px 20px;
+   font-size : 20px;
+   color:grey;
+}
+
+.myPage_p_tel {
+   margin: 21px 0px 0px 20px;
+   font-size : 20px;
+   color:grey;
+}
+
+.myPage_p_email {
+   margin: 22px 0px 0px 20px;
+   font-size : 20px;
+   color:grey;
+}
+
+.myPage_p_hwb {
+   margin: 19px 0px 0px 20px;
+   font-size : 20px;
+   color:grey;
+}
+
+.myPage_p_a_submit1, .myPage_p_a_submit2, .myPage_p_a_submit3{
+   background: #fff;
+   font-size: 14px;
+   font-weight: 700;
+   display: fixed;
+   width: 100px;
+   height: 30px;
+   border-radius: 10px;
+   border: 1px solid #E6E9ED;
+   box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+   cursor: pointer;
+}
+
+.myPage_p_a_submit1{
+   margin: 0px 0px 0px 140px;
+}
+
+.myPage_p_n_submit2, .myPage_p_n_submit3{
+   float:right;
+   background: #fff;
+   font-size: 14px;
+   border-radius: 10px;
+   border: 1px solid #E6E9ED;
+   font-weight: 700;
+   display: fixed;
+   width: 100px;
+   height: 30px;
+   box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+   cursor: pointer;
+   margin: 8px 10px 10px 0px;
+}
+
+.myPage_p_n_submit3{
+   margin: 8px 20px 10px 0px;
+}
+
+.myPage_p_n_submit3{
+   background-color:#FFA7A7;
+   color:white;
+}
+
+/* @@@ sector2 @@@@@@@*/
+.myPage_n_content {
+   width:70%;
+   height: auto;
+   margin:auto;
+}
+.myPage_n_body{
+   width: 600px;
+   height: 100%;
+   margin: auto;
+   margin-bottom:30px;
+   padding: auto;
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+    background: #FFFFFF;
+    border: 1px solid #E6E9ED;
+}
+
+.myPage_n_title_under {
+   border: 1px solid #E6E9ED;
+}
+
+.myPage_n_name {
+   margin: 15px 0px 0px 20px;
+   font-size : 25px;
+}
+
+.myPage_n_n_submit1, .myPage_n_n_submit2{
+   background: #fff;
+   font-size: 14px;
+   border-radius: 10px;
+   border: 1px solid #E6E9ED;
+   font-weight: 700;
+   display: fixed;
+   width: 100px;
+   height: 30px;
+   box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+   cursor: pointer;
+}
+
+
+.myPage_n_n_submit1{
+   margin: 0px 0px 10px 370px;
+}
+
+.myPage_n_section1{
+   float: left;
+   width :400px;
+   height: 60px;
+   margin: 10px 0px 0px 10px;
+}
+
+.myPage_n_nut2 {
+   width: 50px;
+}
+
+.myPage_n_section_img {
+   float:left;
+   margin: 10px 0px 0px 20px;
+   width:40px;
+   height:70px;
+}
+.myPage_n_section_name {
+   float:left;
+   width:250px;
+   height:70px;
+   margin: 35px 0px 0px 30px;
+   text-align:left;
+}
+
+.myPage_n_section_tlike {
+   float:left;
+   width:80px;
+   height:70px;
+   margin: 35px 0px 0px 35px;
+}
+
+.myPage_n_nut1{
+   background: #fff;
+   font-size: 14px;
+   border-radius: 10px;
+   border: 1px solid #E6E9ED;
+   font-weight: 700;
+   display: fixed;
+   width: 100px;
+   height: 30px;
+   box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+   cursor: pointer;
+   margin: 15px 0px 0px 20px;
+}
+
+.myPage_n_nut2{
+   background: #fff;
+   font-size: 14px;
+   border-radius: 10px;
+   border: 1px solid #E6E9ED;
+   font-weight: 700;
+   display: fixed;
+   width: 100px;
+   height: 30px;
+   box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+   cursor: pointer;
+   margin: 5px 0px 25px 20px;
+}
+
+
+
+
+
+
+
+

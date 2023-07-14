@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+.board_body {
+   width:80%;
+   margin:auto;
+   text-align: center;
+}
+
+.board_title{
+	text-align: center;
+}
+
+.select_find1{
+	float:left;
+	margin:15px 0px 15px 20px;
+	padding:0px 0px 0px 5px;
+	width:14%;
+	height:50px;
+	border-radius: 12px;
+	border: 2px solid #D4D3E8;
+	box-shadow: 0px 1px 1px #5C5696;
+	cursor: pointer;
+	outline:none;
+}
+.select_find2{
+	float:left;
+	margin:15px 0px 0px 30px;
+	overflow:visible;
+	padding:0px 0px 0px 10px;
+	width:62%;
+	height:50px;
+	border-radius: 12px;
+	border: 2px solid #D4D3E8;
+	box-shadow: 0px 1px 1px #5C5696;
+	outline:none;
+}
+.list_bt1{
+	float:left;
+	width: 6%;
+	height:50px;
+	margin:15px 0px 0px 20px;
+	border-radius: 12px;
+	border: 2px solid #D4D3E8;
+	box-shadow: 0px 1px 1px #5C5696;
+	cursor: pointer;
+	background-color: #ffffff;	
+}
+.list_bt2{
+	float:left;
+	width:6%;
+	height:50px;
+	margin:15px 0px 0px 20px;
+	border-radius: 12px;
+	border: 2px solid #D4D3E8;
+	box-shadow: 0px 1px 1px #5C5696;
+	cursor: pointer;
+	background-color: #ffffff; 
+}
+.board_list th, .board_list tr, .board_list td {
+   border: 2px solid #E6E9ED;
+   border-collapse: collapse;
+}
+
+.board_list th {
+   background: #B7F0B1;
+}
+
+.board_list{
+   width:100%;
+    box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #E6E9ED; 
+   border-collapse: collapse;
+}
+
+.content_list{
+	height:50px;
+}
+

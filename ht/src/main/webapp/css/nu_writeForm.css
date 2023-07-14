@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.outside{
+	width:70%;
+	margin:auto;
+	text-align: center;
+}
+
+.nu_writeForm{
+	width:830px;
+    box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #E6E9ED;
+	border-collapse: collapse;
+}
+
+.nu_writeForm th, .nu_writeForm tr, .nu_writeForm td {
+	border: 2px solid #E6E9ED;
+	border-collapse: collapse;
+	height:50px;
+}
+
+.nu_writeForm th {
+	background: #d5d5d5;
+}
+
+.nu_writeForm input, select {
+	width:180px;
+	height:30px;
+}

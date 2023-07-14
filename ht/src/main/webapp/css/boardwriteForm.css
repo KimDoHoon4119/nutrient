@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.writeForm_content {
+   margin:0px 0px 0px 250px;
+}
+
+.board_writeForm_mytable th, .board_writeForm_mytable tr, .board_writeForm_mytable td {
+   border: 2px solid #E6E9ED;
+   border-collapse: collapse;
+}
+
+.board_writeForm_mytable th {
+   background: #B7F0B1;
+}
+
+.board_writeForm_mytable{
+   width:100%;
+    box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #E6E9ED; 
+   border-collapse: collapse;
+}
+
+.board_writeForm_mytable{
+	height:50px;
+}
+
+.board_writeForm_mytable input {
+	width:200px;
+	border: none;
+	background: transparent;
+}
+
+.board_writeForm_mytable textarea {
+	float:left;
+	width:100%;
+	height:300px;
+	border: none;
+	background: transparent;
+}
+
+.board_writeForm_btn{
+	margin: 0px 0px 0px 600px;
+}

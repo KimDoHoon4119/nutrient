@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.info_section1{
+	width:70%;
+	margin:auto;
+}
+
+.info_section1_title{
+	text-align: center;
+}
+.info_section1_btn{
+	width: 260px;
+	height: 500px;
+	margin: 20px 24px 100px 0px;
+    float: left;
+    padding: 0px 27px 0px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+    text-align: left;
+    background: #FFFFFF;
+    border: 1px solid #E6E9ED;
+    cursor:pointer;
+}
+
+.button_text {
+	font-size:18px;
+}

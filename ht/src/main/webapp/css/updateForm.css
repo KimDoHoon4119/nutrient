@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+.update_content {
+	width:70%;
+	margin:auto;
+}
+.update_body{
+	width: 600px;
+	height: 270px;
+	margin: auto;
+	margin-bottom:50px;
+	padding: auto;
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+    background: #FFFFFF;
+    border: 1px solid #E6E9ED;
+}
+
+.update_title_under {
+	border: 1px solid #E6E9ED;
+}
+
+.update_name {
+	margin: 15px 0px 21px 20px;
+	font-size : 25px;
+}
+
+.update_gender {
+	margin: 15px 0px 20.5px 180px;
+}
+
+.radio_man {
+	accent-color: #4641D9;
+}
+
+.radio_woman {
+	accent-color: #FFA7A7;
+}
+
+.update_id {
+	margin: 15px 0px 0px 20px;
+	font-size : 20px;
+	color:grey;
+}
+
+.update_tel {
+	margin: 18px 0px 0px 20px;
+	font-size : 20px;
+	color:grey;
+}
+
+.update_email {
+	margin: 15px 0px 0px 20px;
+	font-size : 20px;
+	color:grey;
+}
+
+.update_hwb {
+	margin: 15px 0px 0px 20px;
+	font-size : 20px;
+	color:grey;
+}
+.update_tel_text {
+	text-align:center;
+	font-size:18px;
+	height: 30px;
+	width: 170px;
+	border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+    background: #FFFFFF;
+    border: 1px solid #E6E9ED;
+}
+
+.update_email_text {
+	text-align:center;
+	font-size:18px;
+	height: 30px;
+	border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+    background: #FFFFFF;
+    border: 1px solid #E6E9ED;
+}
+.update_height_text, .update_weight_text, .update_beat_text {
+	text-align:center;
+	font-size:18px;
+	height: 30px;
+	width: 50px;
+	border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+    background: #FFFFFF;
+    border: 1px solid #E6E9ED;
+}
+
+.update_pw_text{
+	text-align:center;
+	font-size:14px;
+	height: 30px;
+	width: 100px;
+	border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+    background: #FFFFFF;
+    border: 1px solid #E6E9ED;
+    margin: 0px 0px 3px 247px;
+}
+
+.update_submit1{
+	background: #fff;
+	font-size: 14px;
+	border-radius: 10px;
+	border: 1px solid #E6E9ED;
+	font-weight: 700;
+	display: fixed;
+	width: 100px;
+	height: 30px;
+	box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+	cursor: pointer;
+}

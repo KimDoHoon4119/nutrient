@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+.board_info_section1 {
+   margin:0px 0px 0px 250px;
+}
+
+.board_info_btn_out{
+	width:820px;
+	text-align:center;
+}
+
+.board_info_btn_in{
+	display:inline-block;
+}
+
+.info_reply th, .info_reply tr, .info_reply td {
+   border: 2px solid #E6E9ED;
+   border-collapse: collapse;
+}
+
+.info_reply th {
+   background: #B7F0B1;
+}
+
+.info_reply{
+   width:100%;
+    box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #E6E9ED; 
+   border-collapse: collapse;
+}
+
+.info_reply{
+	height:50px;
+}
+
+.info_reply_reply th, .info_reply_reply tr, .info_reply_reply td {
+   border: 2px solid #E6E9ED;
+   border-collapse: collapse;
+   height:10px;
+}
+
+
+.info_reply_reply th {
+   background: #B7F0B1;
+	height:35px;
+}
+
+.info_reply_reply{
+   width:100%;
+    box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+    text-align: center;
+    background: #FFFFFF;
+    border: 0px solid #E6E9ED; 
+   border-collapse: collapse;
+}
+
+.info_reply_reply{
+	height:30px;
+}
+
+.info_reply_reply input {
+	border: none;
+	background: transparent;
+}
+
+.info_reply_form_i2::-webkit-input-placeholder{
+	text-align:center;
+}
+
+.info_reply_reply button {
+	border:none;
+	width: 60px;
+	height: 20px;
+	background: transparent;
+	font-size:16px !important;
+}

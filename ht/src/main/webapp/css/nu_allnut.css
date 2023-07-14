@@ -1,0 +1,214 @@
+@charset "UTF-8";
+@media screen and (max-width: 600px) {
+  .dropdown {float: none;}
+  .dropdown-content {position: relative;}
+  .dropdown .dropbtn {
+    display: block;
+    width: 150px;
+    height: 150px;
+    text-align: left;
+  }
+}
+/* dropdown */
+/* dropdown */
+/* dropdown */
+/* dropdown */
+.allnut_section1{
+   float:left;
+   width:1050px;
+   height:auto;
+   margin:0px 0px 0px 120px;
+}
+
+.allnut_section1_title{
+   text-align: center;
+}
+.allnut_section1_btn{
+   width: 210px;
+   height: 280px;
+   margin: 20px -2px 0px 35px;
+    float: left;
+    padding: 0px 0px 0px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+    text-align: left;
+    background: #FFFFFF;
+    border: 1px solid #E6E9ED;
+    cursor:pointer;
+}
+
+.button_text {
+   font-size:18px;
+}
+
+.allnut_search_out{
+   margin: 20px 0px 0px 895px;
+   width:300px;
+   height:30px;
+}
+
+.allnut_search_in{
+   display:inline-block;
+}
+
+.allnut_search_total{
+    float: left;
+   width: 210px;
+   height: 36px;
+   margin: 0px 0px 0px -740px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #E6E9ED;
+    padding-top:3px;
+    font-size:20px;
+    font-weight:550;
+}
+
+.menu-wrap_category{
+   margin: 0px 0px 0px -500px;
+}
+.shiftbt{
+   border:none; background-color : #F6F6F6;
+}
+.pageshift{
+   width:50px; float: left;
+   font-size: 26px;
+   background-color: #F6F6F6;
+   border-color: #F6F6F6;;
+}
+.allnut_search_category{
+    float: left;
+   width: 105px;
+   height: 36px;
+   margin: -15px 0px 0px -37px;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #E6E9ED;
+    padding-top:3px;
+    font-size:20px;
+    font-weight:550;
+    cursor: pointer;
+}
+
+.allnut_search_eff1{
+    float: left;
+   width: 108px;
+   height: 36px;
+   margin: -70px 0px 0px -432px;
+    border-radius: 0px 20px 20px 0px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #E6E9ED;
+    padding-top:3px;
+    font-size:20px;
+    font-weight:550;
+    cursor: pointer;
+}
+
+
+.allnut_search_category:hover {
+   background-color: #B7F0B1;
+}
+
+.all_search_category_f:hover, .all_search_category_e:hover {
+   background-color: #B7F0B1;
+}
+
+.all_search_category_f{
+   float:left;
+   width:110px;
+   height:36px;
+   border-radius: 0px 20px 20px 0px;
+    background: #FFFFFF;
+    border: 1px solid #E6E9ED;
+    margin: 0.5px 0px 0px 0px;
+    font-size:15px;
+    font-weight:550;
+    cursor: pointer;
+}
+
+.all_search_category_e{
+   float:left;
+   width:105px;
+   height:36px;
+   border-radius: 20px 0px 0px 20px;
+   background: #FFFFFF;
+   border: 1px solid #E6E9ED;
+   margin: 1px 0px 0px 0px;
+   font-size:15px;
+   font-weight:550;
+    cursor: pointer;
+}
+
+.allnut_search_like{
+    float: left;
+   width: 107px;
+   height: 36px;
+   margin: -90px 0px 0px -255px;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #E6E9ED;
+    padding-top:3px;
+    font-size:20px;
+    font-weight:550;
+}
+
+.allnut_search_view{
+    float: left;
+   width: 105px;
+   height: 36px;
+   margin: -90px 0px 0px -148px;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+    text-align: center;
+    background: #FFFFFF;
+    border: 1px solid #E6E9ED;
+    padding-top:3px;
+    font-size:20px;
+    font-weight:550;
+}
+
+.allnut_search_box{
+   width: 153px;
+   height: 36px;
+   margin: -90px 0px 0px -10px;
+   padding: 0px 0px 0px 10px;
+    float: left;
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+    text-align: left;
+    background: #FFFFFF;
+    border: 1px solid #E6E9ED;
+}
+
+.allnut_search_btn{
+   width: 55px;
+   height: 36px;
+   margin: -90px 0px 0px 146px;
+   padding: 0px 0px 0px 8px;
+    float: left;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 0px 2px 10px rgba(70, 56, 147, 0.1);
+    text-align: left;
+    background: #B7F0B1;
+    border: 1px solid #E6E9ED;
+    font-size:15px;
+}
+
+.allnut_page_out{
+   width:1250px;
+   height:30px;
+   margin-top: 20px;
+}
+
+.allnut_page_in{
+   width:70%;
+   margin-left:215px;
+   text-align: center;
+}

@@ -53,7 +53,7 @@ public class nutrientsController extends MskimRequestMapping{ // MskimRequestMap
       return "nutrients/main";
    } // main
    
-   @RequestMapping("info1")
+   @RequestMapping("info1") // 종류별 영양제 조회 ex) 종합비타민, 비타민C...
    public String info1(HttpServletRequest request,HttpServletResponse response) {
       try {
          request.setCharacterEncoding("UTF-8");
@@ -62,11 +62,6 @@ public class nutrientsController extends MskimRequestMapping{ // MskimRequestMap
       }
       request.getSession().setAttribute("category",request.getParameter("cate"));
       String category = (String)request.getSession().getAttribute("category");
-      String tview = request.getParameter("tview");
-      String no = request.getParameter("no");
-       //   int nutno = Integer.parseInt(no);
-       //   request.setAttribute("likecnt", dao.likecnt(nutno));
-      if(tview==null || !tview.equals("f")) dao.readcntAdd(no);
       
       List<Nutrient> list1 = dao.list1(category);
       request.setAttribute("list1", list1);
@@ -74,7 +69,7 @@ public class nutrientsController extends MskimRequestMapping{ // MskimRequestMap
       return "nutrients/info1";
    } // info1
    
-   @RequestMapping("info2")
+   @RequestMapping("info2") // 효능별 영양제 조회 ex) 피로회복, 건강개선...
    public String info2(HttpServletRequest request,HttpServletResponse response) {
       try {
          request.setCharacterEncoding("UTF-8");
@@ -91,8 +86,7 @@ public class nutrientsController extends MskimRequestMapping{ // MskimRequestMap
       request.setAttribute("list2", list2);
       
       return "nutrients/info2";
-   } // info1
-   
+   } // info2
    
    @RequestMapping("infoDetail")
     public String infoDetail(HttpServletRequest request,HttpServletResponse response) {

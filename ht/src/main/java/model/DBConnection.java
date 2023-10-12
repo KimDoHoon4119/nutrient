@@ -13,7 +13,7 @@ public class DBConnection {
 		Connection conn = null;
 		try {
 			Class.forName("org.mariadb.jdbc.Driver");
-			conn = DriverManager.getConnection("jdbc:mariadb://14.36.141.71:20000/gdudb3", "gdu3", "asd4119@");
+			conn = DriverManager.getConnection("jdbc:mariadb://14.36.141.71:20000/gdudb3", "gdu55", "asd4119@");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

@@ -176,8 +176,7 @@ public class MemberController extends MskimRequestMapping{ // MskimRequestMappin
       request.getSession().setAttribute("id", id);
       Member mem = dao.selectOne(id);
       request.setAttribute("mem",mem);
-//여기부터 뉴컨
-     System.out.println(request.getParameter("pageNum"));
+
       request.getSession().setAttribute("pageNum", "1");
       int pageNum = 1;
       try {
@@ -198,7 +197,6 @@ public class MemberController extends MskimRequestMapping{ // MskimRequestMappin
       request.setAttribute("endpage", endpage); // no db
       request.setAttribute("maxpage", maxpage); // no db
       request.setAttribute("list3", list3);
-//뉴컨끝      
       return "member/myNut"; // view 선택
    }
    
@@ -249,7 +247,7 @@ public class MemberController extends MskimRequestMapping{ // MskimRequestMappin
          request.setAttribute("msg", msg);
          request.setAttribute("url", url);
          return "alert";
-   } // update
+   } // myNutadd
 
 
    
